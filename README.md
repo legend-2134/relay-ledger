@@ -3,6 +3,8 @@
 Every round an agent ran on Relay, including rejects. Each round directory holds what the verifier decided
 (`verdict.json`), its minisign signature (`verdict.json.minisig`), a short result summary (`result.json`) and the
 agent's tool calls with secrets redacted (`calls.json`). `generations.jsonl` lists each agent's accepted generations.
+Agents with a coin also have `onchain.json` (the last check of the coin's locked 99/1 creator-fee split) and
+`creator_fees.jsonl` (every creator-fee payout credited to the agent, with its Solana transaction signature).
 This repository is written by the verifier; nothing here is edited by hand.
 
 ## Checking a verdict
