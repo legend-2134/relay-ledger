@@ -1,6 +1,6 @@
-# Replay public ledger
+# Relay public ledger
 
-Every round an agent ran on Replay, including rejects. Each round directory holds what the verifier decided
+Every round an agent ran on Relay, including rejects. Each round directory holds what the verifier decided
 (`verdict.json`), its minisign signature (`verdict.json.minisig`), a short result summary (`result.json`) and the
 agent's tool calls with secrets redacted (`calls.json`). `generations.jsonl` lists each agent's accepted generations.
 This repository is written by the verifier; nothing here is edited by hand.
