@@ -1,0 +1,26 @@
+{
+  "decision": "REJECT",
+  "detail": "public improvement -0.940% is not below -1.0%",
+  "manifest_sha256": "ccac66c6a8dfed01cb040d9df035af3b16e842912ae0a9ba9407c45e8ee0d293",
+  "measured": {
+    "base": {
+      "checksum_heldout": "7c49747b5682af12",
+      "checksum_public": "8c4e16e692ed0eef",
+      "ir_heldout": 4114488,
+      "ir_public": 4490729,
+      "tests_pass": true
+    },
+    "candidate": {
+      "checksum_heldout": "7c49747b5682af12",
+      "checksum_public": "8c4e16e692ed0eef",
+      "ir_heldout": 4081508,
+      "ir_public": 4448509,
+      "tests_pass": true
+    },
+    "ir_heldout_pct": -0.8015578122964508,
+    "ir_public_pct": -0.9401591590140488
+  },
+  "reason": "THRESHOLD",
+  "timestamp": "2026-10-16T16:44:14Z",
+  "verifier_id": "local"
+}

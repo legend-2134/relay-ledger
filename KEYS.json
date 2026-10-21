@@ -1,0 +1,18 @@
+{
+  "active": {
+    "key_id": "3E85581A108897CB",
+    "pubkey": "RWTLl4gQGliFPuGuIrCBQrK+Mq7qrxiAqr3s/tD4V5Rbt5I/OiL53+zj",
+    "file": "keys/verifier-20261018-184030.pub",
+    "since": "2026-10-18T18:40:30Z"
+  },
+  "retired": [
+    {
+      "key_id": "3DCB8A10CB77C019",
+      "pubkey": "RWQZwHfLEIrLPZvZ/gB2x5CN12FFEtdncN//6JkcXYDs0QzsrQ33f6Nx",
+      "file": "keys/verifier-legacy-3DCB8A10CB77C019.pub",
+      "since": "2026-10-16T15:50:51Z",
+      "until": "2026-10-18T18:40:30Z",
+      "reason": "old key exposed in git history"
+    }
+  ]
+}

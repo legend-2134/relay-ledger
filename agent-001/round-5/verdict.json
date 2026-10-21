@@ -1,0 +1,26 @@
+{
+  "decision": "ACCEPT",
+  "detail": "public -0.903%, heldout -1.161%",
+  "manifest_sha256": "4058301a5f67eaa8874d703e4690e753da5d83907a31526f59f957c267f0818e",
+  "measured": {
+    "base": {
+      "checksum_heldout": "7c49747b5682af12",
+      "checksum_public": "8c4e16e692ed0eef",
+      "ir_heldout": 3986790,
+      "ir_public": 4336607,
+      "tests_pass": true
+    },
+    "candidate": {
+      "checksum_heldout": "7c49747b5682af12",
+      "checksum_public": "8c4e16e692ed0eef",
+      "ir_heldout": 3940513,
+      "ir_public": 4297461,
+      "tests_pass": true
+    },
+    "ir_heldout_pct": -1.1607584046312949,
+    "ir_public_pct": -0.9026872852439707
+  },
+  "reason": null,
+  "timestamp": "2026-10-16T18:51:48Z",
+  "verifier_id": "local"
+}
